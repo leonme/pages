@@ -1,12 +1,9 @@
 <div align="center">
   <h1>ZERONET Docs</h1>
-  <p>
-      <a href='https://dev.azure.com/dmcdevops/DEVOPS-AUTOMATION/_build/latest?definitionId=63&branchName=master'><img src='https://dev.azure.com/dmcdevops/DEVOPS-AUTOMATION/_apis/build/status/MK%20docs/Build%20DMC%20MKdocs?branchName=master'></a>
-  </p>
 </div>
 
 <div>
-  <a href='https://pages.github.tools.sap/DigitalManufacturing/docs'>Link to the Docs</a>
+  <a href='https://pages.zeronet.ltd/docs'>Link to the Docs</a>
 </div>
 
 # How to contribute to User-Guide
