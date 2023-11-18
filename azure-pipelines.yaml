@@ -10,10 +10,11 @@ pool:
   vmImage: ubuntu-latest
 #pool: DEVOPS_TOOLS
 
-# strategy:
-#     matrix:
-#       Python38:
-#         python.version: '3.8'
+strategy:
+   matrix:
+     Python38:
+       python.version: '3.8'
+
 steps:
 - script: |
     pip install -r requirements.txt
