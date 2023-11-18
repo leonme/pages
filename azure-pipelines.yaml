@@ -25,7 +25,7 @@ steps:
     git config --global user.email ${GH_EMAIL}
     mkdocs build
     git remote rm origin
-    git remote add origin https://${GH_USER}:${GH_TOKEN}@github.tools.sap/DigitalManufacturing/docs.git
+    git remote add origin https://${GH_USER}:${GH_TOKEN}@github.com/leonme/docs.git
     git remote -v
     mkdocs gh-deploy --force
   env:
