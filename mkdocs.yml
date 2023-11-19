@@ -11,6 +11,8 @@ nav:
   - 'Synology NAS':
       - 'DSM': nas/synology/dsm.md
       - 'HASS': nas/synology/hass.md
+  - '资源'：
+    - ‘PC': resources/pcsoftwares.md
   - '开发':
       - 'Git': dev/git.md
       - 'Python': dev/python.md
