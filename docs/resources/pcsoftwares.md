@@ -2,9 +2,10 @@
 tags:
     - 网站
     - 资源
+    - PC
 ---
 
-# PC 软件资源
+# 1. PC 软件资源
 
 ## IDM （Internet Download Manager）
 
@@ -30,7 +31,7 @@ Q&A
 * DNS: 8.8.8.8或119.29.29.29
 
 
-## NotePad++
+## 2. NotePad++
 
 ### How to Download and activate NotePad++ software
 
