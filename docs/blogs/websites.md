@@ -30,4 +30,9 @@ tags:
 * [HomeAssistant (zeronet.ltd)](https://nas.zeronet.ltd:5003/)
 * [Bitwarden Web Vault (zeronet.ltd)](https://nas.zeronet.ltd:5004/#/)
 * [WizNote (zeronet.ltd)](https://nas.zeronet.ltd:5112/)
-* 
+* [qBittoent 下载器](https://nas.zeronet.ltd:5016/)
+* [nastool](https://nas.zeronet.ltd:5014/web#index)
+* [Jellyfin](https://nas.zeronet.ltd:5015/)
+
+# 有用的链接
+* [Passwall2 免费节点分享](https://passwall2.org/passwall2-node/)
