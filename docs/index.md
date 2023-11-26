@@ -1,12 +1,8 @@
-<div align="center">
-  <h1>ZERONET Docs</h1>
-</div>
+# Zeronet Docs 说明文档
 
-<div>
-  <a href='https://pages.zeronet.ltd/docs'>Link to the Docs</a>
-</div>
+[Zeronet 导航页面](https://www.zeronet.ltd)
 
-# How to contribute to User-Guide
+## How to contribute to User-Guide
 
 This user guide is written with [markdown](https://daringfireball.net/projects/markdown/syntax).
 We use mkdocs to generate github pages.
@@ -16,9 +12,8 @@ If you want to contribute to this guide, please follow the steps:
 * clone it locally to your PC, update the content as you think fit
 * run mkdocs locally and see if it generates the content as expected
 * submit to your forked repo, and create a PR
-* make sure the [PR job](Yet to add the pipeline in ADO) is green
 
-# How to run mkdocs locally
+## How to run mkdocs locally
 
 You must have python and pip installed on your machine
 
@@ -41,7 +36,7 @@ mkdocs build
 ```       
 mkdocs serve
 ``` 
-You can find the documentation generated in [http://127.0.0.1:8000/DigitalManufacturing/](http://127.0.0.1:8000/DigitalManufacturing/)
+You can find the documentation generated in [http://127.0.0.1:8000/pages/](http://127.0.0.1:8000/pages/)
 * Go and Update the documentation
 * Check in the windows where you have launch the command _mkdocs serve_ the errors and warnings. And fix them. The documentation is generated in strict mode and the warning are blocking.
 
