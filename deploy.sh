@@ -4,4 +4,4 @@
 mkdocs build
 
 # Deploy the site to GitHub Pages
-mkdocs gh-deploy --force
+ghp-import -n -p -f site

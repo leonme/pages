@@ -5,3 +5,4 @@ mkdocs-glightbox
 mkdocs-material
 mkdocs-mermaid2-plugin
 mkdocs-git-revision-date-localized-plugin
+ghp-import
