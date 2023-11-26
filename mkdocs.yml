@@ -7,11 +7,12 @@ site_author: ZERONET
 nav:
   - 'Home': index.md
   - '博客':
-      - '好用/好玩网站分享': blogs/websites.md
+      - '站点收藏夹': blogs/websites.md
   - 'Synology NAS':
       - 'DSM': nas/synology/dsm.md
       - 'HASS': nas/synology/hass.md
       - 'NasTool': nas/synology/nastool.md
+      - 'Zeronet 导航页面': nas/synology/nav.md
   - '资源':
       - ‘PC': resources/pcsoftwares.md
   - '开发':
