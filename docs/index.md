@@ -1,5 +1,9 @@
 # Zeronet Docs 说明文档
 
+
+![HugoAction](https://github.com/leonme/pages/actions/workflows/jekyll-gh-pages.yml/badge.svg)
+
+
 [Zeronet 导航页面](https://www.zeronet.ltd)
 
 ## How to contribute to User-Guide

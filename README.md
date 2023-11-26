@@ -1,15 +1,11 @@
-<div align="center">
-    <h1>Digital Zerone Docs</h1>
-    <p>
-        <a href='https://dev.azure.com/dmcdevops/DEVOPS-AUTOMATION/_build/latest?definitionId=63&branchName=master'><img src='https://dev.azure.com/dmcdevops/DEVOPS-AUTOMATION/_apis/build/status/MK%20docs/Build%20DMC%20MKdocs?branchName=master'></a>
-    </p>
-</div>
+# Digital Zerone Docs
 
-<div>
-    <a href='https://nas.nas.zeronet.ltd:6000/docs'>Link to the Docs</a>
-</div>
+![Action Status](https://github.com/leonme/pages/actions/workflows/jekyll-gh-pages.yml/badge.svg)
 
-# How to contribute to User-Guide
+[Link to the Docs](https://nas.nas.zeronet.ltd:6000/docs)
+
+
+## How to contribute to User-Guide
 
 This user guide is written with markdown. We use mkdocs to generate github pages.
 
@@ -21,7 +17,7 @@ If you want to contribute to this guide, please follow the steps:
 - submit to your forked repo, and create a PR
 - make sure the PR job is green
 
-# How to run mkdocs locally
+## How to run mkdocs locally
 
 You must have python and pip installed on your machine
 
