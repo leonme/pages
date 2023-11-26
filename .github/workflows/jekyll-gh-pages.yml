@@ -40,24 +40,16 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-#      - name: Build with Jekyll
-#        uses: actions/jekyll-build-pages@v1
-#        with:
-#          source: ./
-#          destination: ./_site
-#      - name: Upload artifact
-#        uses: actions/upload-pages-artifact@v2
       - name: Build and deploy to Pages
-        run: |
-          git config --global user.name ${GH_USER}
-          git config --global user.email ${GH_EMAIL}
-          mkdocs build
-          git remote rm origin
-          git remote add origin https://${GH_USER}:${GH_TOKEN}@github.com/leonme/pages.git
-          git remote -v
-          mkdocs gh-deploy --force
-        env:
-          GH_TOKEN: $(GH_TOKEN)
+        run: bash deploy.sh
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
 
   # Deployment job
   deploy:
